@@ -27,3 +27,19 @@ No physical hardware is used. Python acts as an IoT device.
 ---
 
 ## Project Structure
+iot_project/
+│── send_data.py
+│── AmazonRootCA1.pem
+│── certificate.pem.crt
+│── private.pem.key
+
+
+
+## Security Note
+Certificates and keys are not uploaded to GitHub.
+They must be generated from AWS IoT Core.
+
+---
+
+## Author
+Muhammad Suleman : Student Project – AWS IoT Core (Beginner Level)
